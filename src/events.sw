@@ -6,6 +6,7 @@ use ::data_structures::campaign_info::CampaignInfo;
 pub struct CancelledCampaignEvent {
     /// The unique identifier for the campaign.
     campaign_id: u64,
+    ev_id: u64,
 }
 
 /// Event for when the proceeds of a campaign are claimed.
